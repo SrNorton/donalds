@@ -1,5 +1,9 @@
 import 'package:dot_navigation_bar/dot_navigation_bar.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
+=======
+import 'dart:io' show Platform;
+>>>>>>> c242d587be2e2993c6ad2493a02e3029b160503c
 
 class NavBar extends StatefulWidget {
   const NavBar({super.key});
@@ -30,10 +34,25 @@ class _NavBarState extends State<NavBar> {
   
   Widget build(BuildContext context) {
 
+<<<<<<< HEAD
 
   
     return Container(
       height: 123,
+=======
+    double height = 0;
+
+if (Platform.isAndroid) {
+  height = 123;
+} else if (Platform.isIOS) {
+  height = 157;
+}
+  
+    return Container(
+        height: height,
+      
+      
+>>>>>>> c242d587be2e2993c6ad2493a02e3029b160503c
       child: DotNavigationBar(
             
             margin: EdgeInsets.only(left: 10, right: 10),

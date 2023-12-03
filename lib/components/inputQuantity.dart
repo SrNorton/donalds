@@ -52,7 +52,11 @@ class InputQuantity extends StatelessWidget {
             width: 25,
             child: Center(child: Text('${cartProduct.quantity}')),
           ),
+<<<<<<< HEAD
           cartProduct.quantity < 1 ? Container() :
+=======
+          cartProduct.quantity <= 1 ? Container() :
+>>>>>>> c242d587be2e2993c6ad2493a02e3029b160503c
           Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(8),
