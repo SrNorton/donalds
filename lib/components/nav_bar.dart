@@ -19,7 +19,13 @@ class _NavBarState extends State<NavBar> {
     setState(() {
       _currentIndex = index;
     });
-    print('${_currentIndex}');
+    if(_currentIndex == 0){
+      Navigator.of(context).pushNamed('/welcome');
+    }
+    if(_currentIndex == 1){
+      Navigator.of(context).pushNamed('/gifit');
+
+    }
   }
   // void _handleIndexChanged(int i) {
   //   setState(() {
@@ -54,6 +60,9 @@ if (Platform.isAndroid) {
       
 >>>>>>> c242d587be2e2993c6ad2493a02e3029b160503c
       child: DotNavigationBar(
+        
+        
+        
             
             margin: EdgeInsets.only(left: 10, right: 10),
             dotIndicatorColor: Colors.white,
@@ -74,16 +83,12 @@ if (Platform.isAndroid) {
                 ),
         
                 /// Likes
-                DotNavigationBarItem(
-                  icon: Icon(Icons.favorite_border,
-                  
-                  ),
-                  selectedColor: Colors.purple,
-                ),
+                
         
                 /// Search
                 DotNavigationBarItem(
-                  icon: Icon(Icons.coffee,
+                  icon: Icon(Icons.card_giftcard_outlined,
+                  
                   
                   ),
                   selectedColor:  Colors.purple,

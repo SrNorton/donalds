@@ -4,6 +4,8 @@
 import 'package:donalds_app/manager/cartManager.dart';
 
 import 'package:donalds_app/screens/cartScreen.dart';
+import 'package:donalds_app/screens/gifitScreen.dart';
+import 'package:donalds_app/screens/homeScreen.dart';
 import 'package:donalds_app/screens/splashScreen.dart';
 import 'package:donalds_app/screens/welcomePage.dart';
 import 'package:flutter/material.dart';
@@ -51,12 +53,16 @@ class MyApp extends StatelessWidget {
             case '/initial':
             return MaterialPageRoute(
               builder: (_)=> SplashScreen());
-            case '/welcome':
+            case '/home':
             return MaterialPageRoute(
-              builder: (_)=> WelcomePage());
+              builder: (_)=> HomeScreen());
             case '/cart':
             return MaterialPageRoute(
               builder: (_)=> CartScreen());
+              case '/gifit':
+              return MaterialPageRoute(
+                builder: (_)=> GifitScreen()
+              );
               
              
             default:

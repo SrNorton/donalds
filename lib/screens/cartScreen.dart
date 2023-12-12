@@ -23,7 +23,7 @@ class CartScreen extends StatelessWidget {
       backgroundColor: primaryColor,
       appBar: AppBar(
         leading: IconButton(onPressed: (){
-          Navigator.of(context).pushNamed('/welcome');
+          Navigator.of(context).pushNamed('/home');
         } , icon: Icon(
           Icons.home,
           color: Colors.pink,

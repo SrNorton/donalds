@@ -34,7 +34,7 @@ class _cartBottomState extends State<cartBottom> {
         },
         child: Container(
                         child: Center(
-                          child: Text('COMPRAR R\$ $price' ,
+                          child: Text('COMPRAR R\$ ${price.toStringAsFixed(2)}' ,
                           
                           style: TextStyle(
                             color: Colors.white,
