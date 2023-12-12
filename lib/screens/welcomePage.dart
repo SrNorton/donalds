@@ -218,8 +218,8 @@ class _WelcomePageState extends State<WelcomePage> {
         
         
       ),
-      extendBody: true,
-   bottomNavigationBar: NavBar(),
+      
+   
       
       
     );

@@ -39,17 +39,17 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
       // ),
       body: Column(
         children: [
-           Padding(
-             padding: const EdgeInsets.only(top: 55, right: 25),
-             child: Text('MAIS SABOR PARA O SEU DIA !!!',
-                      style: GoogleFonts.acme(
-                        fontSize: 22,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.brown,
+          //  Padding(
+          //    padding: const EdgeInsets.only(top: 55, right: 25),
+          //    child: Text('MAIS SABOR PARA O SEU DIA !!!',
+          //             style: GoogleFonts.acme(
+          //               fontSize: 22,
+          //               fontWeight: FontWeight.bold,
+          //               color: Colors.brown,
            
-                      ),
-                      ),
-           ),
+          //             ),
+          //             ),
+          //  ),
           
           Container(
             color: primaryColor,
@@ -69,7 +69,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
                 color: Colors.pink,
                 ),
                 onPressed: (){
-                  Navigator.of(context).pushNamed('/welcome');
+                  Navigator.of(context).pushNamed('/home');
                 } ),
             ),
           //    Expanded(
