@@ -28,7 +28,7 @@ class DonutsCard extends StatelessWidget {
     return GestureDetector(
       onTap:  press,
       child: Container(
-        
+
            color: Color.fromARGB(255, 233, 233, 233),  
        child: Padding(
          padding: EdgeInsets.all(20),
