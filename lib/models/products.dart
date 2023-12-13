@@ -13,7 +13,7 @@ class Product {
    
    ),
    Product(icon: 'assets/images/donuts_cobertura.png', title: 'chocolate', price: 14.99),
-   Product(icon: 'assets/images/donuts_docedeleite.png', title: 'Glazed', price: 14.99),
+   Product(icon: 'assets/images/donuts_docedeleite.png', title: 'Glazedd', price: 14.99),
    Product(icon: 'assets/images/donuts_welcome.png', title: 'Homer', price: 14.99),
 
    
